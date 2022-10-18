@@ -1,0 +1,138 @@
+.carrito-todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+    gap: 24px;
+    width: 0 auto;
+    flex-direction: row-reverse;
+}
+.cards-carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 8px;
+    padding: 8px;
+}
+.detalles-pedido .precio-euro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-content: center;
+    gap: 8px;
+}
+.carrito-todo .detalles-pedido .button{
+    display: flex;
+    width: 96%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+}
+
+.carrito-todo .detalles-pedido{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 8px;
+    margin: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 8px;
+}
+.cards .precio-euro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecera-carrito{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 16px;
+    margin: 8px;
+    gap: 16px;
+}
+.card-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+}
+.card-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+}
+.card-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+}
+.card-1 .resumen{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+.card-2 .resumen{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+.card-3 .resumen{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+}
+.resumen .precio-euro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-1{
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 8px;
+}
+.card-2{
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 8px;
+}
+.card-3{
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 8px;
+}
+
+
+

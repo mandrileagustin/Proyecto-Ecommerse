@@ -1,0 +1,71 @@
+.volver-productos{
+    display: flex;
+    padding-top: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    padding-bottom: 24px;
+}
+
+.tarjetas{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 340px;
+    padding: 24px 24px;
+    margin: 8px;
+    max-width: 100%;
+
+}
+.tarjetas .mis-tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 16px;
+    padding: 16px 16px;
+    gap: 8px;
+    max-width: 50%;
+}
+.mis-tarjetas .buttoncta{
+    width: 96%;
+}
+.mis-tarjetas .input-grp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 24px 36px;
+    width: 100%;
+}
+.nuevas-tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    align-items: center;
+    box-shadow: 0 8px 16px -8px #00000075;
+    border-radius: 16px;
+}
+.nuevas-tarjetas .input-grp{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    gap: 8px;
+    padding: 40px;
+    
+}
+.nuevas-tarjetas button{
+    width: 100%;
+}
+
+

@@ -1,0 +1,414 @@
+body{
+   font-size: 16px;
+   text-decoration: none;
+   font-family: "Raleway";
+   background-color: white;
+   margin:0;
+
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    display:block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+h1{ font-family: "Raleway";
+    font-size:48.83px ;
+    display: inline-block;}
+
+h2{font-size:39.06px ;}
+
+h3{font-size:31.25px;}
+
+h4{font-size:25.00px ;}
+
+h5{font-size:20.00px;}
+
+h6 p{font-size: 16.00px;}
+
+small{font-size:12.80px;}
+
+input{
+    box-sizing: border-box;
+}
+                                                        /** header*/
+.contenedor-superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 16px 24px;
+    background-color: rgb(185, 2, 2);
+    gap: 8px;
+    border: 2px rgba(181, 175, 175, 0.508) solid ;
+    border-bottom: grey 16px solid;
+    color: black; 
+}
+
+.search input{
+    background-color: whitesmoke;
+    border-radius: 16px;
+    border: 2px rgba(181, 175, 175, 0.508) solid;
+    display: block;
+    margin: 8px;
+    padding: 8px 16px;
+    gap: 6px;
+    max-width: 100%;
+    transition: all .3s;
+}
+.search input:hover{
+    border-color: greenyellow;
+}
+.input-grp input{
+    display: block;
+    color: darkgrey;
+    border-radius: 16px;
+    margin: 8px;
+    padding: 16px;
+    padding-right: 40%;
+    gap: 8px;
+    transition: all .3s;
+    border: solid;
+}
+.error{
+    display:block;
+    color: red;
+    display: none;
+}
+
+.input-grp input:hover{
+border-color: greenyellow;
+}
+
+
+                                                        /** header*/
+                                                        /*boton*/
+
+.button{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(129, 208, 254);
+    border: 1px grey solid;
+    border-radius: 16px;
+    padding: 8px;
+    transition: all .3s;
+    color: white;
+}
+
+.button:hover{
+    border-bottom: 4px black solid;
+    border-radius: 16px;
+}
+.buttoncta{
+    display: inline-block;
+    position: relative;
+    background-color: yellow;
+    border: 1px grey solid;
+    border-radius: 16px;
+    padding: 8px;
+    transition: all .3s;
+    color: black;
+}
+.buttoncta:hover{
+    border-bottom: 4px black solid;
+    border-radius: 16px;
+
+}
+.contador{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    
+    border-radius: 50%;
+}
+span.circule{
+    position: absolute;
+    background-color: rgb(250, 245, 245);
+    border-radius: 50%;
+    padding: 4px 10px;
+    border:hidden 1px black solid;
+    top: -8px;
+    border-color: black 2px solid;
+}
+
+
+                                                            /* boton*/
+                                             /* nav*/
+.contenedor-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 16px 24px;
+    
+    
+    
+}
+.navmenu ul li{
+    display: inline-block;
+    padding: 16px;
+    transition: all 0.3s;
+}
+.contenedor-nav ul li:hover{
+  border-bottom: 4px black solid;
+  border-radius: 6px;
+}
+                                                 /** nav**/
+                                                 /*inicio de sesion y registro*/
+
+.form-sesion{
+    display: flex;
+    place-content: center space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-around;
+    align-content: center;
+    padding: 24px;
+}
+
+.caja-inicio{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    padding: 80px 40px;
+    margin: 8px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 8px 16px -8px #00000075;
+    text-align: center;
+}
+.caja-inicio .button{
+   
+    width: 100%
+}
+.caja-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 40px;
+    margin: 8px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 8px 16px -8px #00000075;
+    text-align: center;
+}  
+.caja-registro .button{
+    width: 100%;
+    
+}
+                                            /*inicio de sesion y registro*/ 
+                                            /*cards*/
+.cabecera-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+        flex-direction: column;
+        padding: 16px 16px;
+        max-width: 100%;
+        margin: 8px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    padding: 16px 24px;
+   max-width: 100%;
+    gap: 24px;
+    image-resolution: 180px 180px;
+   
+}
+.cards .button{
+    margin: 6px;
+    display: flex;
+    padding: 8px;
+    width: 260px;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    background-color:rgb(219, 191, 33);
+    color: white;
+}
+
+.cards .card-1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 24px 40px;
+    transition: all.3s;
+    box-shadow: 0 8px 16px -8px #00000075;
+}
+
+.cards .card-2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 24px 40px;
+    transition: all.3s;
+    box-shadow: 0 8px 16px -8px #00000075;
+}
+
+.cards .card-3{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 24px 40px;
+    transition: all .3s;
+    box-shadow: 0 8px 16px -8px #00000075;
+}
+.cards .card-3:hover{
+    border: 4px yellow solid;
+    border-radius: 6px;
+}
+.cards .card-1:hover{
+    border: 4px yellow solid;
+    border-radius: 6px;
+}
+
+.cards .card-2:hover{
+    border: 4px yellow solid;
+    border-radius: 6px;
+}
+
+.cards .precio-euro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards .rating span.filled{
+    color: gold;
+}
+.cards .rating span{
+    color: grey;
+}
+/*Testimonios*/
+
+/*Testimonios*/
+                                                        /*cards*/
+                                                        /*garantias*/
+.garantia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    margin: 16px;
+    padding: 16px;
+    gap: 16px;
+    border: 2px black solid;
+    border-radius: 8px;
+}
+                                                        /*garantias*/
+                                        /** footer**/
+
+.contenedor-footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 24px;
+    color: white;
+    align-content: center;
+}
+.servicios{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    
+}
+.servicios ul li{
+    color: white;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.redes ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+}
+.contenedor-footer .titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+                                        /**footer**/
+.section {
+    display: flex;
+    flex-direction: row;
+    @media only screen and {
+        (max-width: 480px;){
+            .section{
+                flex-direction:column
+            }
+        }
+    }
+    @media only screen and {
+        (min-width: 480px ;){
+            .section{
+                flex-direction:row
+            }
+        }
+    }
+    @media only screen and {
+        (min-width: 768px;){
+            flex-direction: row
+        }
+    }
+    @media only screen and {
+        (min-width: 992px;){
+            flex-direction:row
+        }
+    }
+    @media only screen and {
+        (min-width: 1200px;){
+            flex-direction:row
+        }
+        
+    }
+} 
+                                    

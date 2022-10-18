@@ -1,0 +1,161 @@
+.arriba {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.arriba .button{
+    background-color: white;
+    color: green;
+    border: solid 2px greenyellow;
+    transition: all.3s;
+    padding: 24px;
+}
+.finalizar-compra{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.finalizar-compra .direccion{
+ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px 40px;
+    border-radius: 16px;
+}
+.finalizar-compra .resumen-compra{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 16px;
+    padding: 40px 40px;
+    gap: 16px;
+    width: 24%;
+    border: grey 2px;
+    transition: all .3s;
+}
+.finalizar-compra .resumen-compra:hover{
+    border: 2px black solid;
+}
+.resumen-compra .buttoncta{
+    width: 100%;
+    text-align: center;
+}
+
+.direccion .cliente{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 8px;
+    
+}
+.direccion .cliente2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 8px;
+}
+
+.direccion .datos-vivienda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    padding: 8px;
+}
+.direccion .datos-vivienda2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    padding: 8px;
+}
+.direccion .datos-vivienda3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 80px;
+    padding: 8px;
+    width: 100%;
+}
+.direccion .input-grp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.input-grp .buttoncta{
+    width: 100%;
+    text-align: center;
+}
+
+.resumen-compra .card-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    background-color: rgba(235, 228, 220, 0.332);
+    border-radius: 16px;
+    padding: 8px;
+    width: 100%;
+}
+.resumen-compra .card-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    background-color: rgba(235, 228, 220, 0.332);
+    border-radius: 16px;
+    padding: 8px;
+    width: 100%;
+}
+.resumen-compra .card-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    background-color: rgba(235, 228, 220, 0.332);
+    border-radius: 16px;
+    padding: 8px;
+    width: 100%;
+}
+.resumen-compra .precio-euro{
+    display: flex;
+}
