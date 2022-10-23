@@ -65,6 +65,7 @@ input{
 }
 .search input:hover{
     border-color: greenyellow;
+    outline: none;
 }
 .input-grp input{
     display: block;
